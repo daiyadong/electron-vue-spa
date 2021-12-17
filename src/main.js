@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
+import 'element-ui/lib/theme-chalk/index.css'
 
 import VueRouter from 'vue-router'
 import ElementUI from 'element-ui'
@@ -32,7 +33,7 @@ Vue.config.productionTip = false
 
 new Vue({
   // //定义Vue绑定的跟元素
-  // el: '#app',
+  el: '#app',
   // //用<App/>代替根元素
   // template: '<App/>',
   // //声明App组件，这样上面的<App/>元素就可以生效
